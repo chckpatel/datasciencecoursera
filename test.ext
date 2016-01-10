@@ -1,1 +1,43 @@
-Testing
+chitresh@Training MINGW64 ~
+$ mkdir datascience
+
+chitresh@Training MINGW64 ~
+$ cd datascience/
+
+$ git init
+Initialized empty Git repository in C:/Users/chitresh/datascience/.git/
+
+$ git clone https://github.com/chckpatel/datasciencecoursera
+Cloning into 'datasciencecoursera'...
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+Checking connectivity... done.
+
+$ cd datasciencecoursera/
+
+$vi HelloWorld.md
+
+$ git add -A
+
+$ git commit --all
+[master d8fc39b] commit
+warning: LF will be replaced by CRLF in HelloWorld.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test.ext.
+The file will have its original line endings in your working directory.
+ 2 files changed, 2 insertions(+)
+create mode 100644 HelloWorld.md
+create mode 100644 test.ext
+
+$ git push
+   Counting objects: 4, done.
+   Delta compression using up to 8 threads.
+   Compressing objects: 100% (2/2), done.
+   Writing objects: 100% (4/4), 385 bytes | 0 bytes/s, done.
+   Total 4 (delta 0), reused 0 (delta 0)
+   To https://github.com/chckpatel/datasciencecoursera
+      b5541a0..d8fc39b  master -> master
+
+
